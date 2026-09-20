@@ -1,0 +1,1 @@
+import {expect,it} from 'vitest';import {parseHeaders} from '../src/index.js';it('parses fields',()=>expect(parseHeaders('A: one\r\nB: two')).toHaveLength(2));
